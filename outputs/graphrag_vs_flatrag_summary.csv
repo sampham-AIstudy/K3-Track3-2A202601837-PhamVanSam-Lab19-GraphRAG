@@ -1,0 +1,16 @@
+Loại câu hỏi,Metric,Flat RAG,GraphRAG,Nhận xét phân tích
+cross-doc,Comprehensiveness,4.5,4.667,Hai phương pháp có hiệu năng tương đương nhau.
+cross-doc,Faithfulness,4.667,4.833,Hai phương pháp có hiệu năng tương đương nhau.
+cross-doc,Multi-hop reasoning,3.667,4.0,Hai phương pháp có hiệu năng tương đương nhau.
+cross-doc,Latency (s),5.996,6.453,Flat RAG thường rẻ/nhanh hơn.
+cross-doc,Token usage,824.0,977.5,Flat RAG thường rẻ/nhanh hơn.
+factoid,Comprehensiveness,5.0,5.0,Hai phương pháp có hiệu năng tương đương nhau.
+factoid,Faithfulness,5.0,5.0,Hai phương pháp có hiệu năng tương đương nhau.
+factoid,Multi-hop reasoning,2.0,2.5,GraphRAG cải thiện rõ; kiểm tra rationale và provenance.
+factoid,Latency (s),1.003,2.356,Flat RAG thường rẻ/nhanh hơn.
+factoid,Token usage,691.5,662.5,GraphRAG không đắt hơn trong sample này.
+multi-hop,Comprehensiveness,4.0,3.714,Hai phương pháp có hiệu năng tương đương nhau.
+multi-hop,Faithfulness,4.0,3.857,Hai phương pháp có hiệu năng tương đương nhau.
+multi-hop,Multi-hop reasoning,3.714,3.571,Hai phương pháp có hiệu năng tương đương nhau.
+multi-hop,Latency (s),7.216,9.323,Flat RAG thường rẻ/nhanh hơn.
+multi-hop,Token usage,938.571,1072.714,Flat RAG thường rẻ/nhanh hơn.
